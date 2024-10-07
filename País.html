@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>País</title>
+	 <link rel="stylesheet" type="text/css" href="CSS/stilo.css" />
+</head> 
+<body>
+	<header><h1>Gerador de Países</header></h1>
+	<div class="suberHeader">
+        <div class="inputBusca">
+            <h3> Pesquisar pais: <input onkeyup="buscarPaises(this.value)" type="text" placeholder="Digite o nome de um País"/></h3>
+          </div>
+        <!-- <div class="filtos">
+            <input value="all" onchange="pesquisarPaisporFiltro(this.value)" type="radio" name="filtos" checked/> Todos:
+            <input value="america" onchange="pesquisarPaisporFiltro(this.value)" type="radio" name="filtos" /> America
+            <input  value="europe"onchange="pesquisarPaisporFiltro(this.value)" type="radio" name="filtos" /> Europa
+            <input value="asia" onchange="pesquisarPaisporFiltro(this.value)" type="radio" name="filtos" /> Asia
+            <input value="africa" onchange="pesquisarPaisporFiltro(this.value)" type="radio" name="filtos" /> Africa
+    </div> -->
+    <div class="filtos">
+      <select name="" id="" onchange="pesquisarPaisporFiltro(this.value)">
+        <option value="all">Todos</option>
+        <option value="america">America</option>
+        <option value="europe">Europa</option>
+        <option value="asia">Asia</option>
+        <option value="africa">Africa</option>
+        <option value="oceania">Oceania</option>
+      </select>
+    </div>
+  </div>
+  </main>
+
+
+
+	<hr>
+    <h2>Total de Países: <span id="qtPaises">250</span></h2>
+	 <div class="todosPaises">
+     </div>
+	<script src="JS/code.js"></script>
+  <div id="rodape">
+    <p><h2>2024 - IFCE - Campus Jaguaruana<br />
+                Lorranna Kelly
+    </h2></p>
+    </div> 
+</body>
+</html>

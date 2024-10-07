@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+* {
+  font-family: Embed code;
+  background-color: Gainsboro;
+}
+
+h1 {
+  text-align: center;
+	padding: 10px;
+  display: flex;
+  justify-content: center;
+  color:white; 
+  background-color: black;
+  text-shadow: 5px 5px 5px red;
+}
+.suberHeader{
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+#rodape{
+  background-color: Gainsboro;
+  padding: 5px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: black;
+}
+
+hr {
+  width: 100%;
+  border-style: solid;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.inputBusca {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: black;
+  border-radius: 5px;
+
+}
+input[type="text"]{
+    background-color:white;
+    font-weight: bold;
+    width: 40%;
+    border:2px solid black;
+    border-radius: 5px;
+}
+body{
+    border: 5px solid #000; /* Aqui você pode alterar a cor e a espessura da borda */
+    border-radius: 10px;
+}
+.todosPaises{
+ display: flex;
+ justify-content: center;
+ gap: 15px;
+ flex-wrap: wrap;
+ cursor: pointer;
+ border: black;
+}
+.pais{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px black;
+  cursor: pointer;
+  
+}
+.pais:hover {
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+/* .todosPaises {
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px; 
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  margin: 5px;
+} */
+
+select {
+  margin-right: 10px;
+  background-color:white;
+  font-weight: bold;
+  border:2px solid black;
+  border-radius: 5px;
+}
+
+

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+* {
+  font-family: Embed code;
+  background-color: Gainsboro;
+}
+
+h1 {
+  text-align: center;
+	padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  color:white; 
+  background-color: black;
+  text-shadow: 5px 5px 5px red;
+}
+.suberHeader{
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  border-style: solid;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.inputBusca {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+body{
+  border: 6px solid #000; /* Aqui você pode alterar a cor e a espessura da borda */
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.pais{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px black;
+  cursor: pointer;
+}
+.pais:hover {
+  transform: scale(1.1);
+}
+.todosPaises {
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px; 
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  margin: 5px;
+} 
+.pais-detalhes{
+  border-radius: 5px black;
+}
